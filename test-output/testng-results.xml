@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11788" started-at="2023-05-27T19:34:19Z" finished-at="2023-05-27T19:34:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11788" started-at="2023-05-27T19:34:19Z" finished-at="2023-05-27T19:34:31Z">
+      <class name="testCasesForActiTime.LoginTestCases">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testCasesForActiTime.LoginTestCases@6536e911]" name="launchBrowser" is-config="true" duration-ms="11068" started-at="2023-05-28T01:04:19Z" finished-at="2023-05-28T01:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="getLogin()[pri:0, instance:testCasesForActiTime.LoginTestCases@6536e911]" name="getLogin" duration-ms="680" started-at="2023-05-28T01:04:30Z" finished-at="2023-05-28T01:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+      </class> <!-- testCasesForActiTime.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

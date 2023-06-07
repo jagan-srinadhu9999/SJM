@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTime]">
+  <test name="loginFunctinality(failed)">
+    <classes>
+      <class name="testCasesForActiTime.LoginTestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="getLogin"/>
+        </methods>
+      </class> <!-- testCasesForActiTime.LoginTestCases -->
+    </classes>
+  </test> <!-- loginFunctinality(failed) -->
+</suite> <!-- Failed suite [ActiTime] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ActiTime">
+	<listeners>
+		<listener class-name="utilityClasses.Listners" />
+
+
+	</listeners>
+	<test name="loginFunctinality">
+		<classes>
+			<class name="testCasesForActiTime.LoginTestCases" />
+
+		</classes>
+	</test>
+	<test name="createCustomeFunctinality">
+		<classes>
+
+			<class name="testCasesForActiTime.CreateCustomerTest" />
+
+		</classes>
+
+
+	</test>
+</suite> 
